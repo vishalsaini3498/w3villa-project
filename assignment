@@ -1,0 +1,43 @@
+print("Choose option Easy , Medium,Hard")
+c = input()
+if c == "Easy":
+    print("""Who developed the Python language? 
+        a Zim Den
+        b Guido van Rossum
+        c Niene Stom
+        d Wick van Rossum""")
+    ans1 = input()
+    if ans1 == "b":
+        print("Guido van Rossum")
+        print()
+        print("Very Strong(5)")
+    else:
+        print("poor(1)")
+elif c == "Medium":
+    print("""What do we use to define a block of code in Python language?
+
+        a Key
+        b Brackets
+        c Indentation
+        d None of these""")
+    ans2 = input()
+    if ans2 == "c":
+        print("Indentation")
+        print()
+        print("Very Strong(5)")
+    else:
+        print("Poor(1)")
+else:
+    print("""What is the maximum possible length of an identifier?
+
+        a 16
+        b 32
+        c 64
+        d None of these above""")
+    ans3 = input()
+    if ans3 == "d":
+        print("None of these")
+        print()
+        print("Very strong(5)")
+    else:
+        print("Poor(1)")
